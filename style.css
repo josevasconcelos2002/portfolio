@@ -1,0 +1,12 @@
+#footer{
+    background-color: rgba(41, 38, 34, 0.768);
+    width: auto;
+    height: 60px;
+    padding-left: 760px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-top: 900px;
+}
+#body{
+    background-color: black;
+}
