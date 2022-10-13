@@ -2,7 +2,7 @@
 <h1>LI3</h1>
 </div>
 
-## Repositório
+## Repositório 📚
 
 Para obter o repositório na sua máquina, basta efetuar clone ao repositório.
 
@@ -10,7 +10,7 @@ Para obter o repositório na sua máquina, basta efetuar clone ao repositório.
 $ git clone link_do_repositório
 $ cd nome_do_repositório 
 ```
-## Tecnologias utilizadas
+## Tecnologias utilizadas 💻
 <div style="display: inline_block">
 <img align="center" alt="Github" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
 <img align="center" alt="C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
