@@ -22,6 +22,6 @@ $ cd nome_do_repositório
 
 ## Grupo _ _
 
-- **A96060** [Ana Margarida Campos Pires] ;
+- **A96060** [Ana Margarida Campos Pires](https://github.com/0801margarida) ;
 - **A96268** [Paulo Alexandre Rodrigues Ferreira](https://github.com/Pauloarf) ;
 - **A100763** [José Pedro Torres Vasconcelos](https://github.com/josevasconcelos2002) ;
