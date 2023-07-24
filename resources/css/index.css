@@ -64,6 +64,17 @@ main{
     color: whitesmoke;
 }
 
+.hello{
+    font-size: 40px;
+}
+
+.resume{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 40px 40px 40px;
+}
+
 .language{
     margin: 80px 40px;
     display: inline-block;
