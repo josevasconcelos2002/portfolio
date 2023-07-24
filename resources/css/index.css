@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    font-weight: bold;
+}
+
+ul{
+    align-items: right;
+}
+
+#logo{
+    align-items: left;
+    font-weight: bolder;
+    font-size: larger;
+    padding-left: 20px;
+}
+
+header{
+    background-color: #1c4b82;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    padding: 15px;
+    color: white;
+}
+
+main{
+    background-color: rgba(126, 112, 112, 0.5);
+    padding-top: 10%;
+}
+
+#apresentation{
+    text-align: center;
+}
+
+#hand{
+    width: 25px;
+    height: 25px;
+}
