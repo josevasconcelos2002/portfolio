@@ -64,16 +64,25 @@ main{
     display: inline-block;
     width: 90px;
     height: 40px;
-    border: 3px solid black;
     text-align: center;
-    color: whitesmoke;
-    border-radius: 15px;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding-top: 5px;
 }
 
 .c{
     background-color: #1c4b82;
+    border: 3px solid #1c4b82;
 }
 
 .java{
     background-color: orangered;
+    border: 3px solid orangered;
+}
+
+.javascript{
+    background-color: yellow;
+    color: rgb(208, 205, 205);
+    border: 3px solid yellow;
 }
