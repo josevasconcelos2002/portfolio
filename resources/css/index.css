@@ -50,7 +50,7 @@ main{
     border-radius: 50%;
     width: 250px;
     border: 3px solid orangered;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 
 .title{
@@ -60,14 +60,20 @@ main{
 }
 
 .language{
-    margin: 40px 40px;
+    margin: 80px 40px;
     display: inline-block;
     width: 90px;
     height: 40px;
     border: 3px solid black;
     text-align: center;
+    color: whitesmoke;
+    border-radius: 15px;
 }
 
 .c{
-    
+    background-color: #1c4b82;
+}
+
+.java{
+    background-color: orangered;
 }
