@@ -31,7 +31,7 @@ header{
 }
 
 main{
-    background-color: rgba(126, 112, 112, 0.5);
+    background-color: rgba(53, 119, 144, 0.5);
     padding-top: 10%;
 }
 
@@ -56,4 +56,18 @@ main{
 .title{
     text-align: center;
     font-size: 30px;
+    color: whitesmoke;
+}
+
+.language{
+    margin: 40px 40px;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.c{
+    
 }
