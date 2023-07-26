@@ -10,11 +10,7 @@ li{
     font-weight: bold;
 }
 
-ul{
-    align-items: right;
-}
-
-#logo{
+.logo{
     align-items: left;
     font-weight: bolder;
     font-size: larger;
@@ -33,6 +29,16 @@ header{
     height: 100%;
     padding: 15px;
     color: white;
+}
+
+footer{
+    background-color: #1c4b82;
+    position: sticky;
+    top: 30px;
+    height: 100%;
+    padding: 15px;
+    color: white;
+    margin-top: 15px;
 }
 
 main{
@@ -112,4 +118,14 @@ main{
 .sql{
     background-color: rgb(8, 183, 183);
     border: 3px solid rgb(8, 183, 183);
+}
+
+.know_more{
+    border: 2px solid #1c4b82;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: #1c4b82;
+    color: whitesmoke;
+    box-shadow: 0px 2px;
 }
