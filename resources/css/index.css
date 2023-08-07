@@ -38,12 +38,12 @@ footer{
     height: 100%;
     padding: 15px;
     color: white;
-    margin-top: 15px;
 }
 
 main{
     background-color: rgba(53, 119, 144, 0.5);
     padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 #apresentation{
@@ -81,45 +81,6 @@ main{
     margin: 0 40px 40px 40px;
 }
 
-
-
-.language{
-    margin: 80px 40px;
-    display: inline-block;
-    width: 90px;
-    height: 40px;
-    text-align: center;
-    color: white;
-    border-radius: 3px;
-    font-weight: bold;
-    padding-top: 5px;
-}
-
-.c{
-    background-color: #1c4b82;
-    border: 3px solid #1c4b82;
-}
-
-.java{
-    background-color: orangered;
-    border: 3px solid orangered;
-}
-
-.javascript{
-    background-color: rgb(194, 194, 25);
-    border: 3px solid rgb(194, 194, 25);
-}
-
-.haskell{
-    background-color: rgb(99, 31, 162);
-    border: 3px solid rgb(99, 31, 162);
-}
-
-.sql{
-    background-color: rgb(8, 183, 183);
-    border: 3px solid rgb(8, 183, 183);
-}
-
 .know_more{
     border: 2px solid #1c4b82;
     padding: 10px;
@@ -127,5 +88,19 @@ main{
     border-radius: 10px;
     background-color: #1c4b82;
     color: whitesmoke;
-    box-shadow: 0px 2px;
+    box-shadow: 3px 3px;
+}
+
+.know_more:hover{
+    background-color: whitesmoke;
+    color: #1c4b82;
+}
+
+a:hover{
+    color: #1c4b82;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }
