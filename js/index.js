@@ -4,9 +4,9 @@ let main = document.querySelector("main");
 let change = document.querySelector(".change");
 
 function dark(){
-    header.style.backgroundColor = 'black';
-    main.style.backgroundColor = 'gray';
-    footer.style.backgroundColor = 'black';
+    header.style.backgroundColor = 'gray';
+    main.style.backgroundColor = 'black';
+    footer.style.backgroundColor = 'gray';
     change.innerHTML = 'Light';
 }
 
