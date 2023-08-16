@@ -2,6 +2,7 @@ let header = document.querySelector("header");
 let footer = document.querySelector("footer");
 let main = document.querySelector("main");
 let change = document.querySelector(".change");
+let a = document.querySelector('a');
 
 function dark(){
     header.style.backgroundColor = 'gray';

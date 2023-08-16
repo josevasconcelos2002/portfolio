@@ -4,25 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
+    <link rel="stylesheet" href="./resources/css/skills.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li class="logo"><a href="https://josevasconcelos2002.github.io/portfolio/">Jose Vasconcelos</a></li>
-                <li class="change"><script src="./js/index.js" async></script>Dark</li>
+                <li class="logo"><a href="./index.html">José Vasconcelos</a></li>
+                <li class="change"><script src="./js/index.js" async></script><a>Dark</a></li>
+                <li><a href="#resume">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="apresentation">
             <h1 class="title hello">Hello <img src="./resources/images/mao-acenando.png" alt="Hand shaking" id="hand"></h1>
-            <img src="./resources/images/me.jpeg" alt="Me" id="me">
-            <p class="resume">
-                I'm José Vasconcelos and I'm currently studying Computer Engineering at the University of Minho.👨‍🎓 On my free time I like to learn more about programming. 📚
-            </p>
-            <button class="know_more"><a href="./skills.html">Saber mais</a></button>
+            <img src="./resources/images/me.jpeg" alt="Photo of me" id="me">
+            <section>
+                <h3 id="resume">About Me</h3>
+                <p class="resume">
+                    I'm José Vasconcelos and I'm currently studying Computer Engineering at the University of Minho.👨‍🎓 On my free time I like to learn more about programming. 📚
+                </p>
+            </section>
+        </section>
+        <section id="skills">
+            <h2 class="title">Skills</h2>
+            <div class="skill c">C</div>
+            <div class="skill java">Java</div>
+            <div class="skill javascript">Javascript</div>
+            <div class="skill haskell">Haskell</div>
+            <div class="skill sql">Sql</div>
+            <div class="skill html">Html</div>
+            <div class="skill css">Css</div>
+            <div class="skill git">Git</div>
+        </section>
+        <section id="contact">
+            <h2 class="title">Contact</h2>
+            <a href="https://github.com/josevasconcelos2002" target="_blank"><img src="./resources/images/github" alt="github" class="contact"></a>
+            <a href="https://www.linkedin.com/in/jose-vasconcelos-9a1514229/" target="_blank"><img src="./resources/images/linkedin.png" alt="linkedin" class="contact"></a>
         </section>
     </main>
     <footer>

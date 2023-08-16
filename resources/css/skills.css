@@ -1,5 +1,5 @@
-.language{
-    margin: 80px 40px;
+.skill{
+    margin: 70px 40px;
     display: inline-block;
     width: 90px;
     height: 40px;
@@ -8,6 +8,7 @@
     border-radius: 3px;
     font-weight: bold;
     padding-top: 5px;
+    box-shadow: 2px 2px;
 }
 
 .c{
@@ -33,4 +34,19 @@
 .sql{
     background-color: rgb(8, 183, 183);
     border: 3px solid rgb(8, 183, 183);
+}
+
+.html{
+    background-color: red;
+    border: 3px solid red;
+}
+
+.css{
+    background-color: rgb(5, 125, 185);
+    border: 3px solid rgb(5, 125, 185);
+}
+
+.git{
+    background-color: green;
+    border: 3px solid green;
 }
