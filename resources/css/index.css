@@ -7,34 +7,6 @@
     scroll-behavior: smooth;
 }
 
-li{
-    display: inline;
-    font-weight: bold;
-    padding-right: 10px;
-    align-items: right;
-}
-
-.logo{
-    align-items: left;
-    font-weight: bolder;
-    font-size: larger;
-    padding-left: 20px;
-    padding-right: 25%;
-}
-
-nav a{
-    text-decoration: none;
-    color: white;
-}
-
-header{
-    background-color: #1c4b82;
-    position: sticky;
-    top: 0;
-    height: 100%;
-    padding: 15px;
-    color: white;
-}
 
 footer{
     background-color: #1c4b82;
@@ -46,7 +18,7 @@ footer{
 }
 
 main{
-    background-color: rgba(53, 119, 144, 0.5);
+    background-color: rgba(3, 39, 135, 0.5);
     padding-top: 10%;
     padding-bottom: 5%;
 }
@@ -73,7 +45,7 @@ main{
     text-align: center;
     font-size: 30px;
     color: whitesmoke;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .hello{
