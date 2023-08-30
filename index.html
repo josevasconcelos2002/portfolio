@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./resources/css/skills.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body data-bs-spy="scroll">
     <header>
-        <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark">
+        <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">José Vasconcelos</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,13 +38,13 @@
             <h1 class="title hello">Hello <img src="./resources/images/mao-acenando.png" alt="Hand shaking" id="hand"></h1>
             <img src="./resources/images/me.jpeg" alt="Photo of me" id="me">
             <section>
-                <h3 id="resume">About Me</h3>
+                <h3 id="resume" data-bs-target="#navbar" data-bs-smooth-scroll="true" class="scrollspy-example">About Me</h3>
                 <p class="resume">
                     I'm José Vasconcelos and I'm currently studying Computer Engineering at the University of Minho.👨‍🎓 On my free time I like to learn more about programming. 📚
                 </p>
             </section>
         </section>
-        <section id="skills">
+        <section id="skills" data-bs-target="#navbar">
             <h2 class="title">Skills</h2>
             <div class="skill c">C</div>
             <div class="skill java">Java</div>
@@ -55,7 +55,7 @@
             <div class="skill css">Css</div>
             <div class="skill git">Git</div>
         </section>
-        <section id="contact">
+        <section id="contact" data-bs-target="#navbar">
             <h2 class="title">Contact</h2>
             <a href="https://github.com/josevasconcelos2002" target="_blank"><img src="./resources/images/github" alt="github" class="contact"></a>
             <a href="https://www.linkedin.com/in/jose-vasconcelos-9a1514229/" target="_blank"><img src="./resources/images/linkedin.png" alt="linkedin" class="contact"></a>
