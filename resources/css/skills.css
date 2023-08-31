@@ -16,9 +16,23 @@
     border: 3px solid #1c4b82;
 }
 
+.c:hover{
+    background-color: white;
+    color: #1c4b82;
+    border: 3px solid #1c4b82;
+    box-shadow: none;
+}
+
 .java{
     background-color: orangered;
     border: 3px solid orangered;
+}
+
+.java:hover{
+    color: orangered;
+    background-color: white;
+    border: 3px solid orangered;
+    box-shadow: none;
 }
 
 .javascript{
@@ -26,9 +40,23 @@
     border: 3px solid rgb(194, 194, 25);
 }
 
+.javascript:hover{
+    color: rgb(194, 194, 25);
+    background-color: white;
+    border: 3px solid rgb(194, 194, 25);
+    box-shadow: none;
+}
+
 .haskell{
     background-color: rgb(99, 31, 162);
     border: 3px solid rgb(99, 31, 162);
+}
+
+.haskell:hover{
+    color: rgb(99, 31, 162);
+    background-color: white;
+    border: 3px solid rgb(99, 31, 162);
+    box-shadow: none;
 }
 
 .sql{
@@ -36,9 +64,23 @@
     border: 3px solid rgb(8, 183, 183);
 }
 
+.sql:hover{
+    color: rgb(8, 183, 183);
+    background-color: white;
+    border: 3px solid rgb(8, 183, 183);
+    box-shadow: none;
+}
+
 .html{
     background-color: red;
     border: 3px solid red;
+}
+
+.html:hover{
+    color: red;
+    background-color: white;
+    border: 3px solid red;
+    box-shadow: none;
 }
 
 .css{
@@ -46,7 +88,21 @@
     border: 3px solid rgb(5, 125, 185);
 }
 
+.css:hover{
+    color: rgb(5, 125, 185);
+    background-color: white;
+    border: 3px solid rgb(5, 125, 185);
+    box-shadow: none;
+}
+
 .git{
     background-color: green;
     border: 3px solid green;
+}
+
+.git:hover{
+    color: green;
+    background-color: white;
+    border: 3px solid green;
+    box-shadow: none;
 }
