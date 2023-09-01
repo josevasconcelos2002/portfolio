@@ -83,3 +83,7 @@ h3{
     box-shadow: 2px 2px;
     color: whitesmoke;
 }
+
+.area-1, .myResume, #skills, #contact{
+    visibility: hidden;
+}

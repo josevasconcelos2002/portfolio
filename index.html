@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/skills.css">
     <title>Portfolio</title>
@@ -35,18 +36,37 @@
     </header>
     <main>
         <section id="apresentation">
-            <h1 class="title hello">Hello <img src="./resources/images/mao-acenando.png" alt="Hand shaking" id="hand"></h1>
-            <img src="./resources/images/me.jpeg" alt="Photo of me" id="me">
-            <section>
+            <div class="area-1">
+                <h1 class="title hello">Hello <img src="./resources/images/mao-acenando.png" alt="Hand shaking" id="hand"></h1>
+                <img src="./resources/images/me.jpeg" alt="Photo of me" id="me">
+            </div>
+            <section class="myResume">
                 <h3 id="resume" data-bs-target="#navbar" data-bs-smooth-scroll="true" class="scrollspy-example">About Me</h3>
                 <p class="resume text-center">
-                    I'm José Vasconcelos and I'm currently studying Computer Engineering at the University of Minho.👨‍🎓 On my free time I like to learn more about programming. 📚
+                    I'm José Vasconcelos and I'm currently studying Computer Engineering at the University of Minho.👨‍🎓 On my free time I like to learn more about programming and to go to the gym. 📈
                 </p>
             </section>
         </section>
         <section id="skills" data-bs-target="#navbar">
             <h2 class="title">Skills</h2>
-            <div class="skill c">C</div>
+            <div class="skill c" data-bs-toggle="modal" data-bs-target="#c">C</div>
+            <!-- Modal c-->
+            <div class="modal fade" id="c" tabindex="-1" aria-labelledby="cModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">C</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Updating...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
             <div class="skill java">Java</div>
             <div class="skill javascript">Javascript</div>
             <div class="skill haskell">Haskell</div>
@@ -60,6 +80,7 @@
             <a href="https://github.com/josevasconcelos2002" target="_blank"><img src="./resources/images/github" alt="github" class="contact"></a>
             <a href="https://www.linkedin.com/in/jose-vasconcelos-9a1514229/" target="_blank"><img src="./resources/images/linkedin.png" alt="linkedin" class="contact"></a>
         </section>
+        <script src="./js/script.js"></script>
     </main>
     <footer class="bg-dark">
         <p class="logo text-center">Made by José Vasconcelos</p>
